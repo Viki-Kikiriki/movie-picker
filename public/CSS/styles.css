@@ -1,0 +1,65 @@
+html{
+    height: 100%;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    overflow: hidden;
+}
+
+body{
+    min-height: 100%;
+}
+
+h1{
+    padding: 50px;
+}
+
+h1.movieTitle{
+    margin-top: 15vh;
+}
+
+div.container{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    padding: 70px 0 150px;
+}
+
+div.button{
+    margin: 3vh 0;
+}
+
+
+input.titleInput{
+    border-radius: 12px;
+    border-width: 1px;
+    height: 6vh;
+    margin: 33vh 0 1vh;
+    width: 200px;
+    text-align: center;
+}
+
+input::placeholder{
+    text-align: center;
+}
+
+input:focus{
+    outline: none;
+    box-shadow: 0 0 0 2px #28a745;
+}
+
+button.submit{
+    margin-bottom: 20vh;
+}
+
+span.movieTitle{
+    font-weight: 700;
+}
+
+.fa-heart{
+    color: #ff4136;
+}
+
+.fa-check-circle{
+    color: #28a745;
+    margin-bottom: 15vh;
+}

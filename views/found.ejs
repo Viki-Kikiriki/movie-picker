@@ -1,0 +1,8 @@
+<%- include("head") %>
+
+    <h1 class="movieTitle">The Conch has spoken! You shall watch <span class="movieTitle"><%= movieTitle %></span>.</h1>
+    <form action="/delete" method="POST">
+        <button name="delete" type="submit" value="<%= movieTitle %>" class="btn btn-lg btn-danger submit">Delete</button>
+    </form>
+
+<%- include("footer") %> 
