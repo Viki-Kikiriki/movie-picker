@@ -1,0 +1,4 @@
+Plans for future features: 
+1. Add buttons for manouvering around the site. 
+2. Add option for adding genres.
+3. Add option for finding movies by genres.
